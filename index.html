@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hello Food</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,800;1,100;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
+<link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- mobile nav  -->
+    <div class="mb-nav">
+        <div class="mb-move-item"></div>
+        <div class="mb-nav-item active">
+            <a href="#home" >
+                <i class="bx bxs-home"></i>
+            </a>
+         </div>
+        <div class="mb-nav-item">
+            <a href="#about" >
+                <i class="bx bxs-wink-smile"></i>
+            </a>
+         </div>
+        <div class="mb-nav-item">
+            <a href="#menu" >
+                <i class="bx bxs-food-menu"></i>
+            </a>
+         </div>
+        <div class="mb-nav-item">
+            <a href="#testimonial" >
+                <i class="bx bxs-comment-detail"></i>
+            </a>
+         </div>
+    </div>
+    <!-- end mobile nav  -->
+    <!-- back to top button  -->
+    <a href="#home" id="back-to-home" class="back-to-home">
+        <i class="bx bxs-to-top"></i>
+    </a>
+    <!-- end back to top button  -->
+    <!-- top navigation  -->
+   <div class="nav">
+       <div class="menu-warp">
+           <a href="#home">
+               <div class="logo">
+              
+                   FRESHFOOD
+               </div>
+           </a>
+           <div class="menu h-xs" id="menu">
+               <a href="#home">
+                   <div class="menu_item active">
+                       Home
+                   </div>
+               </a>
+               <a href="#about">
+                   <div class="menu_item">
+                       about
+                   </div>
+               </a>
+               <a href="#food-menu">
+                   <div class="menu_item">
+                       menu
+                   </div>
+               </a>
+               <a href="#testimonial">
+                   <div class="menu_item">
+                    Testimonial
+                   </div>
+               </a>
+           </div>
+           <div class="right-menu">
+               <div class="cart-btn">
+                <i class='bx bx-cart-alt' ></i>
+                </div>
+           </div>
+       </div>
+   </div>
+   <!-- end of top navigation  -->
+    <!-- section home  -->
+    <section id='home' class="fulheight align-items-center bg-img bg-img-fixed" style="background-image:url(https://image.freepik.com/free-photo/mexican-food-right-side-tabletop_23-2147740725.jpg);">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-cs-12">
+                    <div class="slogan left-to-right play-on-scroll">
+                        <h1 class=" left-to-right play-on-scroll">
+                            Free Food
+                        </h1>
+                        <p class=" left-to-right play-on-scroll delay-2">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis dolorum necessitatibus unde odio alias quis delectus! Et veritatis quis quos laboriosam maxime deleniti sint, totam, repudiandae voluptatum quas quo delectus!
+                        </p>
+                        <div class=" left-to-right play-on-scroll delay-4" >
+                            <button >
+                                Order Now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- endsection home  -->
+
+    <!-- section about  -->
+    <section id="about" class="fulheight about" >
+            <div class="row">
+                <div class="col-7 h-xs">
+                    <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="" srcset="" class="fullwidth left-to-right play-on-scroll">
+                </div>
+                <div class="col-5 col-xs-12  align-items-center">
+                    <div class="about-slogan right-to-left play-on-scroll">
+                        <h3>
+                            <span class="primary-color">We</span> create <span class="primary-color">Delicious</span> memoris <span class="primary-color">For</span> you
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati temporibus consequatur autem dolorum debitis quod neque. Quia animi similique, vel illum beatae, tenetur incidunt quis ipsa suscipit quasi at. Odio?
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end section about  -->
+
+    <!-- food menu section  -->
+    <section class="align-items-center bg-img bg-img-fixed" id="food-menu" style="background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIKVdygMuO5zva5gAryeKWaHv5P2qhOwS1rw&usqp=CAU);">
+        <div class="container">
+            <div class="food-menu">
+                <h1> What will <span class="primary-color">you</span> eat today</h1>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit suscipit molestias impedit officiis ex modi eum, numquam recusandae unde, expedita, deserunt sit libero sunt. Ullam error minus vitae expedita facere.
+                </p>
+                <div class="food-category">
+                    <div class="zoom play-on-scroll delay-2">
+                        <button class="categoryBtn actives"data-food-type='all'>
+                            All food
+                        </button class='categoryBtn'>
+                    </div>
+                    <div class="zoom play-on-scroll delay-4">
+                        <button class='categoryBtn' data-food-type='salad'>
+                            Salad
+                         </button>
+                    </div>
+                    <div class="zoom play-on-scroll delay-6">
+                        <button class='categoryBtn' data-food-type='burger'>
+                            burger
+                        </button>
+                    </div>
+                   <div class="zoom play-on-scroll delay-8">
+                    <button class='categoryBtn' data-food-type='pizza'>
+                        Pizza
+                    </button>
+                   </div>
+                    <div class="zoom play-on-scroll delay-10">
+                        <button class='categoryBtn' data-food-type='drinks'>
+                            Drinks
+                        </button>
+                    </div>
+                    
+                </div>
+                <div class="food-item-wrap all">
+                    <div class="food-item  salad-type">
+                        <div class="item-wrap bottom-up play-on-scroll">
+                            <div class="item-img ">
+                                <div class="img-holder">
+                                    <img src="https://img.freepik.com/free-photo/salad-from-tomatoes-cucumber-red-onions-lettuce-leaves-healthy-summer-vitamin-menu-vegan-vegetable-food-vegetarian-dinner-table-top-view-flat-lay_2829-6482.jpg?size=626&ext=jpg&ga=GA1.2.1432389033.1609113600" alt="">
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                    <h3>
+                                        salad
+                                    </h3>
+                                    <span>
+                                        120$
+                                    </span>
+                            </div>
+                            <div class="cart-btn">
+                                <i class="bx bx-cart-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-item pizza-type">
+                        <div class="item-wrap  bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder">
+                                    <img src="https://img.freepik.com/free-photo/salad-from-tomatoes-cucumber-red-onions-lettuce-leaves-healthy-summer-vitamin-menu-vegan-vegetable-food-vegetarian-dinner-table-top-view-flat-lay_2829-6482.jpg?size=626&ext=jpg&ga=GA1.2.1432389033.1609113600" alt="">
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                    <h3>
+                                        pizza
+                                    </h3>
+                                    <span>
+                                        120$
+                                    </span>
+                            </div>
+                            <div class="cart-btn">
+                                <i class="bx bx-cart-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-item burger-type">
+                        <div class="item-wrap  bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder">
+                                    <img src="https://img.freepik.com/free-photo/salad-from-tomatoes-cucumber-red-onions-lettuce-leaves-healthy-summer-vitamin-menu-vegan-vegetable-food-vegetarian-dinner-table-top-view-flat-lay_2829-6482.jpg?size=626&ext=jpg&ga=GA1.2.1432389033.1609113600" alt="">
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                    <h3>
+                                        salad
+                                    </h3>
+                                    <span>
+                                        120$
+                                    </span>
+                            </div>
+                            <div class="cart-btn">
+                                <i class="bx bx-cart-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-item drinks-type">
+                        <div class="item-wrap  bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder">
+                                    <img src="https://img.freepik.com/free-photo/salad-from-tomatoes-cucumber-red-onions-lettuce-leaves-healthy-summer-vitamin-menu-vegan-vegetable-food-vegetarian-dinner-table-top-view-flat-lay_2829-6482.jpg?size=626&ext=jpg&ga=GA1.2.1432389033.1609113600" alt="">
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                    <h3>
+                                        salad
+                                    </h3>
+                                    <span>
+                                        120$
+                                    </span>
+                            </div>
+                            <div class="cart-btn">
+                                <i class="bx bx-cart-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-item salad-type">
+                        <div class="item-wrap  bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder">
+                                    <img src="https://img.freepik.com/free-photo/salad-from-tomatoes-cucumber-red-onions-lettuce-leaves-healthy-summer-vitamin-menu-vegan-vegetable-food-vegetarian-dinner-table-top-view-flat-lay_2829-6482.jpg?size=626&ext=jpg&ga=GA1.2.1432389033.1609113600" alt="">
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                    <h3>
+                                        salad
+                                    </h3>
+                                    <span>
+                                        120$
+                                    </span>
+                            </div>
+                            <div class="cart-btn">
+                                <i class="bx bx-cart-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-item pizza-type">
+                        <div class="item-wrap  bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder">
+                                    <img src="https://img.freepik.com/free-photo/salad-from-tomatoes-cucumber-red-onions-lettuce-leaves-healthy-summer-vitamin-menu-vegan-vegetable-food-vegetarian-dinner-table-top-view-flat-lay_2829-6482.jpg?size=626&ext=jpg&ga=GA1.2.1432389033.1609113600" alt="">
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                    <h3>
+                                        salad
+                                    </h3>
+                                    <span>
+                                        120$
+                                    </span>
+                            </div>
+                            <div class="cart-btn">
+                                <i class="bx bx-cart-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-item pizza-type">
+                        <div class="item-wrap  bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder">
+                                    <img src="https://img.freepik.com/free-photo/salad-from-tomatoes-cucumber-red-onions-lettuce-leaves-healthy-summer-vitamin-menu-vegan-vegetable-food-vegetarian-dinner-table-top-view-flat-lay_2829-6482.jpg?size=626&ext=jpg&ga=GA1.2.1432389033.1609113600" alt="">
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                    <h3>
+                                        salad
+                                    </h3>
+                                    <span>
+                                        120$
+                                    </span>
+                            </div>
+                            <div class="cart-btn">
+                                <i class="bx bx-cart-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-item burger-type">
+                        <div class="item-wrap  bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder">
+                                    <img src="https://img.freepik.com/free-photo/salad-from-tomatoes-cucumber-red-onions-lettuce-leaves-healthy-summer-vitamin-menu-vegan-vegetable-food-vegetarian-dinner-table-top-view-flat-lay_2829-6482.jpg?size=626&ext=jpg&ga=GA1.2.1432389033.1609113600" alt="">
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                    <h3>
+                                        salad
+                                    </h3>
+                                    <span>
+                                        120$
+                                    </span>
+                            </div>
+                            <div class="cart-btn">
+                                <i class="bx bx-cart-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-item burger-type">
+                        <div class="item-wrap  bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder">
+                                    <img src="https://img.freepik.com/free-photo/salad-from-tomatoes-cucumber-red-onions-lettuce-leaves-healthy-summer-vitamin-menu-vegan-vegetable-food-vegetarian-dinner-table-top-view-flat-lay_2829-6482.jpg?size=626&ext=jpg&ga=GA1.2.1432389033.1609113600" alt="">
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                    <h3>
+                                        salad
+                                    </h3>
+                                    <span>
+                                        120$
+                                    </span>
+                            </div>
+                            <div class="cart-btn">
+                                <i class="bx bx-cart-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-item drinks-type">
+                        <div class="item-wrap  bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder">
+                                    <img src="https://img.freepik.com/free-photo/salad-from-tomatoes-cucumber-red-onions-lettuce-leaves-healthy-summer-vitamin-menu-vegan-vegetable-food-vegetarian-dinner-table-top-view-flat-lay_2829-6482.jpg?size=626&ext=jpg&ga=GA1.2.1432389033.1609113600" alt="">
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                    <h3>
+                                        salad
+                                    </h3>
+                                    <span>
+                                        120$
+                                    </span>
+                            </div>
+                            <div class="cart-btn">
+                                <i class="bx bx-cart-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                       <div class="food-item drinks-type">
+                        <div class="item-wrap  bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder">
+                                    <img src="https://img.freepik.com/free-photo/salad-from-tomatoes-cucumber-red-onions-lettuce-leaves-healthy-summer-vitamin-menu-vegan-vegetable-food-vegetarian-dinner-table-top-view-flat-lay_2829-6482.jpg?size=626&ext=jpg&ga=GA1.2.1432389033.1609113600" alt="">
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                    <h3>
+                                        salad
+                                    </h3>
+                                    <span>
+                                        120$
+                                    </span>
+                            </div>
+                            <div class="cart-btn">
+                                <i class="bx bx-cart-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="food-item drinks-type">
+                        <div class="item-wrap  bottom-up play-on-scroll">
+                            <div class="item-img">
+                                <div class="img-holder">
+                                    <img src="https://img.freepik.com/free-photo/salad-from-tomatoes-cucumber-red-onions-lettuce-leaves-healthy-summer-vitamin-menu-vegan-vegetable-food-vegetarian-dinner-table-top-view-flat-lay_2829-6482.jpg?size=626&ext=jpg&ga=GA1.2.1432389033.1609113600" alt="">
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                    <h3>
+                                        salad
+                                    </h3>
+                                    <span>
+                                        120$
+                                    </span>
+                            </div>
+                            <div class="cart-btn">
+                                <i class="bx bx-cart-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>
+    </section>
+    <!-- food menu section end  -->
+    <!-- testmonial section  -->
+    <section id="testimonial">
+        <div class="container">
+            <div class="row">
+                <div class="col-4 col-xs-12">
+                    <div class="review-wrap zoom play-on-scroll delay-2">
+                        <div class="review-content">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, sapiente, modi aliquid ad dolor laudantium pariatur quam neque quia illo et fugiat nulla praesentium minima repellat sunt. Eius, molestiae molestias!
+                            </p>
+                            <div class="review-img bg-img" style="background-image: url(https://blog.hubspot.com/hubfs/Customer-testimonial-page.jpg);"></div>
+                        </div>
+                        <div class="review-info">
+                            <h3>
+                                Lorem ipsum dolor sit amet.
+                            </h3>
+                            <div class="rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-xs-12">
+                    <div class="review-wrap activesz  zoom play-on-scroll">
+                        <div class="review-content ">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, sapiente, modi aliquid ad dolor laudantium pariatur quam neque quia illo et fugiat nulla praesentium minima repellat sunt. Eius, molestiae molestias!
+                            </p>
+                            <div class="review-img bg-img" style="background-image: url(https://blog.hubspot.com/hubfs/Customer-testimonial-page.jpg);"></div>
+                        </div>
+                        <div class="review-info">
+                            <h3>
+                                Lorem ipsum dolor sit amet.
+                            </h3>
+                            <div class="rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 col-xs-12">
+                    <div class="review-wrap  zoom play-on-scroll delay-6">
+                        <div class="review-content">
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, sapiente, modi aliquid ad dolor laudantium pariatur quam neque quia illo et fugiat nulla praesentium minima repellat sunt. Eius, molestiae molestias!
+                            </p>
+                            <div class="review-img bg-img" style="background-image: url(https://blog.hubspot.com/hubfs/Customer-testimonial-page.jpg);"></div>
+                        </div>
+                        <div class="review-info">
+                            <h3>
+                                Lorem ipsum dolor sit amet.
+                            </h3>
+                            <div class="rating">
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                                <i class="bx bxs-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    </section>
+    <!-- end test monial section  -->
+
+    <!-- footer section  -->
+    <section class="footer bg-img" style="background-image: url(https://images.pexels.com/photos/1565982/pexels-photo-1565982.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-xs-12">
+                    <h1>
+                        Fresh Food
+                    </h1>
+                </br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda iusto eum, mollitia in natus possimus eos quae atque aliquam porro quis dolore officia aliquid cumque dolor! Nam alias laborum quibusdam!
+                    </p>
+                    <br>
+                    <p>Email  : example@gmail.com</p>
+                    <p>Phone  : 0174323456543</p>
+                    <p>Website: www.http://google.com/erningbd</p>
+                </div>
+                <div class="col-2 col-xs-12">
+                    <h1>About Us</h1>
+                    <br>
+                    <a href="#">Chefs</a>
+                    <a href="#">menu</a>
+                    <a href="#">teastmonials</a>
+                    <a href="#">Contract Us</a>
+                </div>
+                <div class="col-4 col-xs-12">
+                    <h1> subscribe & media</h1>
+                    <br>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum molestias harum nam, maiores necessitatibus amet odio! Perferendis nulla reiciendis totam ab qui dicta iste, incidunt eos quas, quaerat, delectus aspernatur.</p>
+                    <div class="input-group">
+                        <input type="text" placeholder="enter your email">
+                        <button type="submit">
+                            Subscribe
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--end  footer section  -->
+
+   <script src="index.js"></script>
+</body>
+</html>
