@@ -289,7 +289,7 @@ section{
     border-radius: 2rem;
 }
 .img-holder img:hover{
-    transform: scale(3) rotate(45deg);
+    transform: scale(2) rotate(45deg);
 }
 .item-info{
     display: flex;
