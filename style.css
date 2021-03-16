@@ -375,6 +375,7 @@ section{
     border-radius: 2rem;
     display: flex;
     justify-content: space-between;
+
 }
 .input-group input {
     flex: auto;
@@ -468,7 +469,7 @@ section{
         font-size: 13px;
     }
     h1 {
-        font-size: 3rem;
+        font-size: 2rem;
     }
     span{
         font-size: inherit;
@@ -506,7 +507,7 @@ section{
 
     .mb-nav {
         position: fixed;
-        bottom: 20px;
+        bottom: 0;
         display: flex;
         width: 100%;
         justify-content: space-between;
@@ -545,6 +546,9 @@ section{
         background-color: var(--primary-color);
         transition: .5s ease-in-out;
         z-index: -1;
+    }
+    .input-group{
+        margin-top: 2rem;
     }
     .col-xs-1 {
         width:8.33%;
