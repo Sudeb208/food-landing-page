@@ -468,8 +468,10 @@ section{
     *{
         font-size: 13px;
     }
-    h1 {
-        font-size: 2rem;
+    .slogan h1 {
+        font-size: 3rem;
+        font-weight: 500;
+        /* margin-top: 20px; */
     }
     span{
         font-size: inherit;
